@@ -201,8 +201,8 @@ section.callback  .callback_title {
 }
 section.callback hr {
     border: none; /* Убираем границу для браузера Firefox */
-    color: red; /* Цвет линии для остальных браузеров */
-    background-color: #b9c4db; /* Цвет линии для браузера Firefox и Opera */
+    color: #5D5E60; /* Цвет линии для остальных браузеров */
+    background-color: #5D5E60; /* Цвет линии для браузера Firefox и Opera */
     height: 2px; /* Толщина линии */
     width: 50%;
 }
@@ -211,6 +211,8 @@ section.callback input {
 }
 section.callback input[type="submit"] {
     text-transform: uppercase;
+    background-color: #2DA1DB;
+    color: #ffffff;
 }
 
 
