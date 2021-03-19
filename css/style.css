@@ -227,19 +227,13 @@ section.callback input[type="submit"] {
     color: #ffffff;
 }
 
-@media all and (max-width: 1200px) {
-    .services__card {
-        flex: 0 1 calc(100% / 2 - 10px);
-    }
-
-    .services__card__main {
-        flex: 100%;
-    }
-}
 
 @media all and (max-width: 567px) {
     .callback_wrapper {
         padding: 0;
+    }
+    .callback-form_container {
+        flex-basis: 100%;
     }
 }
 
